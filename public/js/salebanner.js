@@ -48,7 +48,7 @@ console.log('We are printing from our Print.JS file and i just want to say hello
     }
 }
 
-$.get( "https://52dc60c0553d.ngrok.io/api/banners", function(data) {
+$.get( "https://shopifytestapp12.herokuapp.com/api/banners", function(data) {
     console.log( "success" );
     console.log(data)
   })
